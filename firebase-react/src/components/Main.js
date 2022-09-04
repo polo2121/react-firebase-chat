@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Main = () => {
+  const [counter, setCounter] = useState(0);
+
   return (
     <div className="content">
       <h1>Fun facts about React</h1>
@@ -25,6 +27,8 @@ const Main = () => {
           </span>
         </li>
       </ul>
+      <p>{counter}</p>
+      <button onClick={() => setCounter(counter + 1)}>Counter</button>
     </div>
   );
 };

@@ -3,6 +3,7 @@
 // import { Footer } from "./Footer";
 import Nav from "./components/Nav";
 import Main from "./components/Main";
+import Dummy from "./components/Dummy";
 
 // import "./App.css";
 
@@ -14,6 +15,7 @@ const Page = () => {
       <Footer /> */}
       <Nav />
       <Main />
+      <Dummy />
     </>
   );
 };
